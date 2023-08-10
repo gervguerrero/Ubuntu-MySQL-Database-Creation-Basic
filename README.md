@@ -17,7 +17,9 @@ Then "_sudo systemctl status mysql_" is used to verify that the MySQL service is
 
 ![image](https://github.com/gervguerrero/Ubuntu-MySQL-Database-Creation-Basic/assets/140366635/ae81fd8e-3f9b-46a3-8e78-d403aebbb69c)
 
-# Usage  
+<br/> 
+
+# Creating the Database 
 
 With MySQL running, we access the application with simply "_mysql_" since no password has been set yet:
 
@@ -46,4 +48,30 @@ The nc_coffee database is selected for modification with the command "_use nc_co
 Even though the database was created and selected, there are no data tables created yet. Shown with "_show tables;_":
 
 ![image](https://github.com/gervguerrero/Ubuntu-MySQL-Database-Creation-Basic/assets/140366635/848fa051-cc00-4fe1-895f-06f6c89a878a)
+
+<br/> 
+
+# Creating the Data Tables
+
+From here a data table will be created in the following format from Network Chuck's video:
+
+![image](https://github.com/gervguerrero/Ubuntu-MySQL-Database-Creation-Basic/assets/140366635/93d032a9-2642-409d-afb4-97b598129bf2)
+
+The command "create table coffee_table" creates a table within the nc_coffee database:
+
+![image](https://github.com/gervguerrero/Ubuntu-MySQL-Database-Creation-Basic/assets/140366635/9440b6fd-3b32-4bfe-9923-92efc315e648)
+
+From here, columns will be added to the table, along with the data types for each column.
+
+The Columns defined will be:
+- ID,  datatype integer
+- Name, datatype variable character string (255 characters max)
+- Region, datatype variable character string (255 characters max)
+- Roast, datatype variable character string (255 characters max)
+
+![image](https://github.com/gervguerrero/Ubuntu-MySQL-Database-Creation-Basic/assets/140366635/a6b3f9f1-0f8f-4933-8b9a-830c62906754)
+
+Running the "_show tables;_" command we can see that the coffee_table is present within the nc_coffee database:
+
+![image](https://github.com/gervguerrero/Ubuntu-MySQL-Database-Creation-Basic/assets/140366635/4471c84e-26c5-4aac-9d6a-c7d24a3870fa)
 
