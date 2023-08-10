@@ -93,7 +93,7 @@ Example from Network Chuck's video:
 
 ![image](https://github.com/gervguerrero/Ubuntu-MySQL-Database-Creation-Basic/assets/140366635/76d966af-48de-4ec0-9120-fd2b02073c31)
 
-On my machine, the command "_insert into coffee_table values (1, "default route", "ethopia", "light");_" is used to create a row with entires aligning with the columns made earlier:
+On my machine, the command "_insert into coffee_table values (1, "default route", "ethiopia", "light");_" is used to create a row with entries aligning with the columns made earlier:
 
 ![image](https://github.com/gervguerrero/Ubuntu-MySQL-Database-Creation-Basic/assets/140366635/5eca556e-08d0-41e7-a351-5b99f9be22f4)
 
@@ -105,7 +105,7 @@ The rest of the rows are created with similar commands shown earlier:
 
 ![image](https://github.com/gervguerrero/Ubuntu-MySQL-Database-Creation-Basic/assets/140366635/49cd9e41-296d-42a3-9389-c95db5cf5b7b)
 
-After completing the entires, the table now is now complete:
+After completing the entries, the table now is now complete:
 
 ![image](https://github.com/gervguerrero/Ubuntu-MySQL-Database-Creation-Basic/assets/140366635/0d266e26-c182-417b-948a-828da75b1478)
 
@@ -142,7 +142,7 @@ Next, columns are made:
 
   ![image](https://github.com/gervguerrero/Ubuntu-MySQL-Database-Creation-Basic/assets/140366635/f78b9747-cea0-4e56-8508-e437d590aab6)
 
-  The avangers table can now be seen in the nc_coffee database:
+  The avengers table can now be seen in the nc_coffee database:
 
   ![image](https://github.com/gervguerrero/Ubuntu-MySQL-Database-Creation-Basic/assets/140366635/f3b8a6b7-5316-47d8-8b72-4707f625540b)
 
